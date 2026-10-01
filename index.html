@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Benjamin Siegel</title>
+  <meta name="description" content="Benjamin Siegel — Yale student, LLM researcher, and builder of small, odd things on the internet." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' fill='%23FFD95A' stroke='%23111' stroke-width='5'/%3E%3Ctext x='32' y='43' font-family='Arial Black,Arial' font-weight='900' font-size='26' text-anchor='middle' fill='%23111'%3EBS%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300..800&family=Space+Grotesk:wght@400..700&family=Syne:wght@500..800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+
+    <!-- ============ NAV ============ -->
+    <header class="nav" id="top">
+      <a href="#home" class="brand">
+        <span class="brand-mark">BS</span>
+        <span class="brand-name">BENJAMIN SIEGEL</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#skills">About</a>
+        <a href="#career">Experience</a>
+        <a href="#reel">Reel</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-yellow btn-sm nav-cta">Let's talk</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <main>
+      <!-- ============ HERO ============ -->
+      <section id="home" class="hero-wrap">
+        <div class="hero card">
+          <div class="hero-photo">
+            <img src="assets/benjamin.webp" alt="Benjamin Siegel smiling on a beach at sunset" />
+            <span class="sticker">YALE ✦</span>
+          </div>
+          <div class="hero-copy">
+            <p class="hello">Hello, I'm</p>
+            <h1>BENJAMIN SIEGEL</h1>
+            <p class="tagline">Yale University · LLM Research · Builder</p>
+            <p class="bio">
+              I'm a student at <mark>Yale University</mark> working where large language
+              models meet the social sciences: probing and steering model internals to see
+              how well LLMs can stand in for real people on the General Social Survey.
+              Outside the lab I ship small, slightly strange things on the internet:
+              a store that sells literally nothing, a 3D bookshelf, and tools that turn
+              video into text. Off-screen you'll find me by the ocean, around a bonfire,
+              and with friends.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-green">View my work</a>
+              <a href="https://github.com/benjalouis05" target="_blank" rel="noopener" class="btn btn-yellow">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ MARQUEE ============ -->
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>RESEARCHER</span><i class="s1">☆</i>
+          <span>BUILDER</span><i class="s2">☆</i>
+          <span>LLM INTERPRETABILITY</span><i class="s3">☆</i>
+          <span>CURIOUS</span><i class="s4">☆</i>
+          <span>SOCIAL SCIENCE</span><i class="s1">☆</i>
+          <span>FULL-STACK</span><i class="s2">☆</i>
+          <span>AI / ML</span><i class="s3">☆</i>
+          <span>PROBLEM-SOLVER</span><i class="s4">☆</i>
+        </div>
+      </div>
+
+      <!-- ============ SKILLS ============ -->
+      <section id="skills" class="band band-peach">
+        <div class="section-head card reveal">
+          <span class="chip-label">Skill stack</span>
+          <h2>TOOLS AND TECHNOLOGIES I WORK WITH</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card skill-blue reveal">
+            <header>
+              <span class="skill-icon"><svg viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg></span>
+              <h3>LANGUAGES</h3>
+            </header>
+            <ul>
+              <li>Python</li><li>TypeScript</li><li>JavaScript</li>
+              <li>R</li><li>HTML5/CSS3</li><li>Bash</li>
+            </ul>
+          </article>
+
+          <article class="skill-card skill-green reveal">
+            <header>
+              <span class="skill-icon"><svg viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13l9 5 9-5"/></svg></span>
+              <h3>FRAMEWORKS &amp; LIBRARIES</h3>
+            </header>
+            <ul>
+              <li>PyTorch</li><li>Transformers</li><li>scikit-learn</li>
+              <li>Next.js</li><li>React</li><li>Three.js</li>
+            </ul>
+          </article>
+
+          <article class="skill-card skill-yellow reveal">
+            <header>
+              <span class="skill-icon"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.5-2.5 2.5-2.5z"/></svg></span>
+              <h3>TOOLS &amp; PLATFORMS</h3>
+            </header>
+            <ul>
+              <li>Git/GitHub</li><li>OpenAI API</li><li>Stripe</li>
+              <li>Jupyter</li><li>uv</li><li>ffmpeg</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- ============ EXPERIENCE ============ -->
+      <section id="career" class="band band-pink">
+        <div class="career-head card reveal">
+          <div class="career-head-inner"><h2>EXPERIENCE &amp;<br />EDUCATION</h2></div>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-line"></div>
+
+          <div class="t-item left reveal">
+            <span class="t-dot sq blue"></span>
+            <article class="t-card">
+              <p class="t-date">In progress</p>
+              <h3>UNDERGRADUATE STUDENT</h3>
+              <p class="t-org">YALE UNIVERSITY — NEW HAVEN, CT</p>
+              <ul>
+                <li>Coursework in computational social science, including <em>Social Algorithms</em>: team problem sets shipped through pull requests with CI-gated merges and peer review.</li>
+                <li>Final project: a replication of Barrie &amp; Cerina (2026), <em>Synthetic personas distort the structure of human belief systems</em>.</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="t-item right reveal">
+            <span class="t-dot ci yellow"></span>
+            <article class="t-card">
+              <p class="t-date">Summer 2026</p>
+              <h3>RESEARCHER — LLM vs. HUMAN SURVEY GAP</h3>
+              <p class="t-org">GENERAL SOCIAL SURVEY · 2012–2022 WAVES</p>
+              <ul>
+                <li>Asked whether the per-question gap between an LLM's implied answer distribution and the real human distribution is a <strong>learnable function of the model's own hidden states</strong>, and whether that holds for questions the model hasn't seen.</li>
+                <li>Built a frozen evaluation substrate: weighted human and LLM distributions for every ordinal GSS question, broken down by national segment and model size.</li>
+                <li>Measured the payoff as ΔR² over a mechanical baseline under grouped cross-validation, giving a clean go/no-go number.</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="t-item left reveal">
+            <span class="t-dot sq green"></span>
+            <article class="t-card">
+              <p class="t-date">Summer 2026</p>
+              <h3>RESEARCHER — POLITICAL STEERABILITY IN LLMs</h3>
+              <p class="t-org">EXTENDING KIM, EVANS &amp; SCHEIN (ICLR 2025)</p>
+              <ul>
+                <li>Tested whether the linear "political ideology" direction in an LLM's attention heads can reproduce, and causally control, how real liberals and conservatives answer GSS questions.</li>
+                <li>Replaced named lawmakers with anonymous GSS 2022 respondents, each represented by resampled, verbalized answers from their real survey record.</li>
+                <li>Trained attention-head probes and steered Qwen's generations along the probe direction in a four-probe, three-pole design.</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="t-item right reveal">
+            <span class="t-dot ci pink"></span>
+            <article class="t-card">
+              <p class="t-date">Summer 2026</p>
+              <h3>MECHANISTIC INTERPRETABILITY — LOCALIZING LIES</h3>
+              <p class="t-org">BUILDING ON "CAN LLMs LIE?"</p>
+              <ul>
+                <li>Mapped where deliberate lying, as distinct from hallucination, is computed inside LLMs, using representation-engineering and mech-interp tooling.</li>
+                <li>Also explored brain-encoding models (Meta's TRIBE v2) and LLM agent simulations (AgentTorch).</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="t-item left reveal">
+            <span class="t-dot sq yellow"></span>
+            <article class="t-card">
+              <p class="t-date">2026</p>
+              <h3>CREATOR TOOLS DEVELOPER</h3>
+              <p class="t-org">SMALL BOAT STUDIOS</p>
+              <ul>
+                <li>Built <strong>The Gap</strong>, an interactive 36-month projection comparing a creator's brand-deal earnings on their own against a growth sprint.</li>
+                <li>Built <strong>Content Bank</strong>, a local library of viral short-form videos. It downloads each video, transcribes it with Whisper, and sorts it by creator into hooks and concepts.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ OFFLINE ============ -->
+      <section id="offline" class="band band-mint">
+        <div class="section-head card right reveal">
+          <span class="chip-label">Offline mode</span>
+          <h2>WHAT I DO IN MY FREE TIME WHEN I'M NOT CODING?</h2>
+        </div>
+
+        <div class="bento">
+          <div class="tile t-a reveal" style="--edge: var(--yellow)">
+            <svg viewBox="0 0 24 24"><path d="M2 16c2 0 2-1.5 4-1.5S8 16 10 16s2-1.5 4-1.5S16 16 18 16s2-1.5 4-1.5M2 20c2 0 2-1.5 4-1.5S8 20 10 20s2-1.5 4-1.5S16 20 18 20s2-1.5 4-1.5"/><circle cx="12" cy="8" r="3.5"/></svg>
+            <span>THE OCEAN</span>
+          </div>
+          <div class="tile t-b reveal" style="--edge: var(--blue)">
+            <svg viewBox="0 0 24 24"><path d="M12 3c2 3 5 5 5 9a5 5 0 0 1-10 0c0-2 1-3.5 2-4.5.3 1.5 1 2.5 2 2.5 0-3 0-5 1-7z"/><path d="M4 21l16-3M20 21L4 18"/></svg>
+            <span>BONFIRES</span>
+          </div>
+          <div class="tile t-c reveal" style="--edge: var(--green)">
+            <svg viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg>
+            <span>SIDE PROJECTS</span>
+          </div>
+          <div class="tile t-d reveal" style="--edge: var(--yellow)">
+            <svg viewBox="0 0 24 24"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg>
+            <span>PICKUP SPORTS</span>
+          </div>
+          <div class="tile t-e reveal" style="--edge: var(--red)">
+            <svg viewBox="0 0 24 24"><path d="M10.5 19.5L13 13l7-7a2 2 0 0 0-3-3l-7 7-6.5 2.5L6 15l-2 3 2-1 2 2-1 2 3-2z"/></svg>
+            <span>TRAVEL</span>
+          </div>
+          <div class="tile t-f reveal" style="--edge: var(--blue)">
+            <svg viewBox="0 0 24 24"><path d="M4 19V5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2 2 2 0 0 0 2 2h13"/></svg>
+            <span>READING</span>
+          </div>
+          <div class="tile t-g reveal" style="--edge: var(--yellow)">
+            <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.5 3-6 6.5-6s6.5 2.5 6.5 6"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14c2.8 0 4.5 2 4.5 5"/></svg>
+            <span>FAMILY &amp; FRIENDS</span>
+          </div>
+          <div class="tile t-h reveal" style="--edge: var(--green)">
+            <svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><circle cx="12" cy="13.5" r="3.5"/><path d="M8 7l1.5-3h5L16 7"/></svg>
+            <span>MAKING VIDEOS</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ REEL ============ -->
+      <section id="reel" class="band band-sky">
+        <div class="section-head card center reveal">
+          <span class="chip-label">Camera roll</span>
+          <h2>A ROLLING REEL OF MOMENTS</h2>
+        </div>
+
+        <div class="reel card reveal">
+          <div class="reel-track" id="reelTrack">
+            <!-- Add more photos to /assets and list them here. -->
+            <figure class="frame"><img src="assets/benjamin.webp" alt="Benjamin on the beach at golden hour" style="object-position: 52% 40%" /></figure>
+            <figure class="frame"><img src="assets/roadtrip.webp" alt="Selfie with a friend in front of an old U-Haul camper truck" style="object-position: 25% 50%" /></figure>
+            <figure class="frame"><img src="assets/triathlon.webp" alt="Biting finisher medals after the Yale 9/11 Memorial Relay" style="object-position: 60% 25%" /></figure>
+            <figure class="frame wide"><img src="assets/summit.webp" alt="Four friends at sunrise above the clouds with a volcano behind" style="object-position: 58% 40%" /></figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PROJECTS ============ -->
+      <section id="projects" class="band band-cream">
+        <div class="gallery-head reveal">
+          <h2 class="giant">GALLERY<br />OF<br /><span class="outline">WORK</span></h2>
+          <div class="gallery-count"><span class="rule"></span><span id="projectCount">9 PROJECTS</span></div>
+        </div>
+
+        <div class="projects card" id="projects-list">
+
+          <details class="project">
+            <summary>
+              <span class="p-num">01</span>
+              <span class="p-title">GSS STEERABILITY</span>
+              <span class="p-tags"><i>Python</i><i>PyTorch</i><i>Transformers</i><i>Qwen</i></span>
+            </summary>
+            <div class="p-body">
+              <div class="p-meta"><span class="role">Researcher</span><span>2026</span></div>
+              <ul>
+                <li>Can the linear "political ideology" direction inside an LLM's attention heads reproduce, and causally steer, how real liberals and conservatives answer General Social Survey questions?</li>
+                <li>Extends Kim et al. (ICLR 2025) by replacing DW-NOMINATE scores with GSS respondents as the external ground truth.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="project">
+            <summary>
+              <span class="p-num">02</span>
+              <span class="p-title">LLM vs. HUMAN SURVEY GAP</span>
+              <span class="p-tags"><i>Python</i><i>PyTorch</i><i>scikit-learn</i></span>
+            </summary>
+            <div class="p-body">
+              <div class="p-meta"><span class="role">Researcher · Summer Research</span><span>2026</span></div>
+              <ul>
+                <li>Tests whether the gap between an LLM's implied survey distribution and the real human distribution can be predicted from the model's hidden states, beyond what its output statistics already reveal.</li>
+                <li>Covers every ordinal GSS question from 2012–2022, across segments and model sizes, evaluated with grouped CV.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="project">
+            <summary>
+              <span class="p-num">03</span>
+              <span class="p-title">THE NOTHING PROJECT</span>
+              <span class="p-tags"><i>JavaScript</i><i>Stripe</i><i>Serverless</i></span>
+            </summary>
+            <div class="p-body">
+              <div class="p-meta"><span class="role">Developer</span><span>2026</span><a href="https://github.com/benjalouis05/Thenothingproject" target="_blank" rel="noopener" class="p-link">GitHub ↗</a></div>
+              <ul>
+                <li>Pay for nothing. The price goes up one dollar with every purchase, and the buyer's name joins the list.</li>
+                <li>No database: Stripe is the only source of truth. Each click builds a fresh Checkout Session at the current price, computed from past paid sessions.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="project">
+            <summary>
+              <span class="p-num">04</span>
+              <span class="p-title">CLAIRE'S BOOKSHELF</span>
+              <span class="p-tags"><i>Next.js</i><i>Three.js</i><i>TypeScript</i></span>
+            </summary>
+            <div class="p-body">
+              <div class="p-meta"><span class="role">Developer</span><span>2026</span><a href="https://github.com/benjalouis05/claires-bookshelf" target="_blank" rel="noopener" class="p-link">GitHub ↗</a></div>
+              <ul>
+                <li>A tactile 3D bookcase of every book on a friend's Goodreads shelves: 765 volumes on 20 walnut shelves.</li>
+                <li>Click a shelf to browse it book by book, pull any volume forward to orbit and zoom, and sort by date read, rating, title, author, or length.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="project">
+            <summary>
+              <span class="p-num">05</span>
+              <span class="p-title">THE GAP</span>
+              <span class="p-tags"><i>JavaScript</i><i>Data Viz</i></span>
+            </summary>
+            <div class="p-body">
+              <div class="p-meta"><span class="role">Developer · Small Boat Studios</span><span>2026</span><a href="https://benjalouis05.github.io/drew-visualizer/" target="_blank" rel="noopener" class="p-link">Live ↗</a></div>
+              <ul>
+                <li>An interactive 36-month projection of what a creator earns from brand deals solo versus with a growth sprint.</li>
+                <li>Models compounding follower growth, churn, and a monetization ramp month by month.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="project">
+            <summary>
+              <span class="p-num">06</span>
+              <span class="p-title">CONTENT BANK</span>
+              <span class="p-tags"><i>Next.js</i><i>OpenAI Whisper</i><i>Apify</i><i>ffmpeg</i></span>
+            </summary>
+            <div class="p-body">
+              <div class="p-meta"><span class="role">Developer</span><span>2026</span></div>
+              <ul>
+                <li>A personal library of viral TikTok and Instagram videos: download them locally, transcribe them with Whisper, and sort them into creator folders from a local dashboard.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="project">
+            <summary>
+              <span class="p-num">07</span>
+              <span class="p-title">TRANSCRIBER</span>
+              <span class="p-tags"><i>Python</i><i>ffmpeg</i><i>OpenAI API</i></span>
+            </summary>
+            <div class="p-body">
+              <div class="p-meta"><span class="role">Developer</span><span>2026</span></div>
+              <ul>
+                <li>Drop a video on the app and get a text file of everything said in it.</li>
+                <li>Strips audio with ffmpeg, splits long recordings into 10-minute parts, and stitches together <code>gpt-4o-transcribe</code> output.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="project">
+            <summary>
+              <span class="p-num">08</span>
+              <span class="p-title">POLREASON REPLICATION</span>
+              <span class="p-tags"><i>R</i><i>Python</i></span>
+            </summary>
+            <div class="p-body">
+              <div class="p-meta"><span class="role">Researcher · Social Algorithms</span><span>2026</span><a href="https://github.com/benjalouis05/polreason" target="_blank" rel="noopener" class="p-link">GitHub ↗</a></div>
+              <ul>
+                <li>Replicates and extends Barrie &amp; Cerina (2026), showing how LLM synthetic personas distort the structure of human belief systems.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="project">
+            <summary>
+              <span class="p-num">09</span>
+              <span class="p-title">MORE COMING SOON</span>
+              <span class="p-tags"><i class="active-tag">Active</i></span>
+            </summary>
+            <div class="p-body">
+              <div class="p-meta"><span class="role">Always building</span><span>2026</span></div>
+              <ul>
+                <li>New research write-ups and side projects are on the way. Stay tuned!</li>
+              </ul>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section id="contact" class="contact-wrap">
+        <div class="contact card">
+          <h2 class="giant-2">TRANSMISSION <span class="outline orange">TERMINAL</span></h2>
+
+          <div class="terminal">
+            <div class="term-bar">
+              <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+              <span class="term-title">CONTACT — BASH</span>
+            </div>
+            <div class="term-body">
+              <p class="term-line" data-type><span class="ps">$</span> init_contact --mode=open</p>
+              <p class="term-line muted" data-type>&gt; Loading communication protocols...</p>
+              <p class="term-line muted" data-type>&gt; Status: <b class="ok">READY</b></p>
+              <p class="term-line muted" data-type>&gt; Message: Open to research collaborations, internships, and fun ideas.</p>
+              <p class="avail"><span class="pulse"></span> AVAILABLE FOR OPPORTUNITIES</p>
+              <div class="term-btns">
+                <a href="https://github.com/benjalouis05" target="_blank" rel="noopener">&gt; GitHub</a>
+                <a href="mailto:benjamin.siegel.bls64@yale.edu">&gt; Email</a>
+              </div>
+              <p class="term-meta"><span class="ps">$</span> LAST_SYNC: <span id="clock">—</span></p>
+              <p class="term-meta"># © <span id="year">2026</span> BENJAMIN SIEGEL — NEW HAVEN, CT</p>
+              <p class="term-meta"><span class="ps">$</span> <span class="cursor"></span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
